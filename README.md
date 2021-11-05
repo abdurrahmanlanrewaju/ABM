@@ -44,9 +44,8 @@ run(), update() and gentfunction() are developed  for GUI of the system
 
 ## Unittest
 
-<img src="Figure_1.png" alt="Segregation ABM" />
 
-<img src="Figure_1.png" alt="Segregation ABM" />
+<img src="b1.png" alt="Segregation ABM" />
 
 
 
