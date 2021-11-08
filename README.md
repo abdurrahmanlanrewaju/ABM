@@ -25,31 +25,14 @@ The environment is a Euclidean 2D plane that is generated from reading the data 
 The Animals are basically agents that move around the environment, evaluate the distance between themselves, and not going beyond the limits of the environment.The Animal agents were built in a separate class using an object-oriented approach. This is defined in the Agent [agentframework.py] class. The intial x and y coordinates of the animsls are set in the class and their values are retrieved from the a collection of web data that was scraped. The animal class additionally sets the initial store values of the animal agents randomly. The store represents the level of the animal's energy when the animal eats.
 
 ## How to run the model
+The model can only be run using Python 3.5+. To run the model, the model.py file should be used. This file grows out of the agentframework.py file and it should be opened in a python code editor that can run python programs. To successfully run the model, Tkinter should be activated in the coding editor as the file is expected to produce a GUI that was developed on the basis of Tkinter library. After activating Tkinter in the code editor, the Run button should be clicked upon and the editor is expected to run the code and produce a GUI. 
 
-
-
-
-
-
-##Model
-
-write_line_to_output(s): The function writes output and reads input from text file
-
-
-get_maximum(): The function checks environment for largest value
-
-
-
-
-get_minimum(): The function checks environment for minimum value
-
-
-run(), update() and gentfunction() are developed  for GUI of the system
+The GUI output can sometimes produce two interface. To run the model, the interface that has "MOdel" at the top left corner is the actual interface to run the model. The "Model" button should be clicked upon and it will display the "Run model" sub menu. The "Run model" will produced the final GUI that shows the animals interacting with the environment.
 
 <img src="Figure_1.png" alt="Segregation ABM" />
 
 ## Unittest
-
+A unit testing was written for the model code and the output below verifies that the code functions without any problems.
 
 <img src="b1.png" alt="Segregation ABM" />
 
